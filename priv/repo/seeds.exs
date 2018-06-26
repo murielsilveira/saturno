@@ -9,3 +9,8 @@
 #
 # We recommend using the bang functions (`insert!`, `update!`
 # and so on) as they will fail if something goes wrong.
+alias Saturno.Account.User
+alias Saturno.Repo
+
+%User{name: "Mary", email: "mary@email.com"} |> Repo.insert!
+%User{name: "John", email: "john@email.com"} |> Repo.insert!

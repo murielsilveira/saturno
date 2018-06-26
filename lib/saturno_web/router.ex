@@ -23,4 +23,8 @@ defmodule SaturnoWeb.Router do
   # scope "/api", SaturnoWeb do
   #   pipe_through :api
   # end
+
+  forward "/graphiql", Absinthe.Plug.GraphiQL, schema: SaturnoWeb.Schema
+  forward "/graphql", Absinthe.Plug, schema: SaturnoWeb.Schema
+
 end
