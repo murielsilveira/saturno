@@ -14,6 +14,8 @@ defmodule SaturnoWeb.Schema do
     @desc "Get all foods"
     field :foods, list_of(:food) do
       arg :locale, :locale
+      arg :first, :integer
+
       resolve &Resolvers.Sensazonal.list_foods/3
     end
   end

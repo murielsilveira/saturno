@@ -1,7 +1,16 @@
 defmodule Saturno.Sensazonal do
   import SaturnoWeb.Gettext
 
-  def list_foods do
+  def list_foods(first) when is_integer(first) do
+    foods()
+    |> Enum.take(first)
+  end
+
+  def list_foods(_) do
+    foods()
+  end
+
+  def foods do
     [
       %{  
         id: 1,
@@ -689,6 +698,6 @@ defmodule Saturno.Sensazonal do
         months: [12],
         image_url: "https://raw.githubusercontent.com/ronanrodrigo/Sensazonal/master/Sensazonal/System/Assets.xcassets/Content/PINEAPPLE.imageset/PINEAPPLE%403x.jpg",
       }
-    ]  
+    ]
   end
 end
