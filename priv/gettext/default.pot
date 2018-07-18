@@ -1,0 +1,475 @@
+## This file is a PO Template file.
+##
+## `msgid`s here are often extracted from source code.
+## Add new translations manually only if they're dynamic
+## translations that can't be statically extracted.
+##
+## Run `mix gettext.extract` to bring this file up to
+## date. Leave `msgstr`s empty as changing them here as no
+## effect: edit them in PO (`.po`) files instead.
+msgid ""
+msgstr ""
+
+#, elixir-format
+#: lib/saturno_web/templates/page/index.html.eex:2
+msgid "Welcome to %{name}!"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:9 lib/saturno/sensazonal/food.ex:16
+#: lib/saturno/sensazonal/food.ex:23 lib/saturno/sensazonal/food.ex:30
+#: lib/saturno/sensazonal/food.ex:37 lib/saturno/sensazonal/food.ex:44
+#: lib/saturno/sensazonal/food.ex:51 lib/saturno/sensazonal/food.ex:58
+#: lib/saturno/sensazonal/food.ex:65 lib/saturno/sensazonal/food.ex:72
+#: lib/saturno/sensazonal/food.ex:79 lib/saturno/sensazonal/food.ex:86
+#: lib/saturno/sensazonal/food.ex:93 lib/saturno/sensazonal/food.ex:177
+#: lib/saturno/sensazonal/food.ex:184 lib/saturno/sensazonal/food.ex:191
+#: lib/saturno/sensazonal/food.ex:198 lib/saturno/sensazonal/food.ex:205
+#: lib/saturno/sensazonal/food.ex:212 lib/saturno/sensazonal/food.ex:219
+#: lib/saturno/sensazonal/food.ex:226 lib/saturno/sensazonal/food.ex:261
+#: lib/saturno/sensazonal/food.ex:268 lib/saturno/sensazonal/food.ex:275
+#: lib/saturno/sensazonal/food.ex:282 lib/saturno/sensazonal/food.ex:289
+#: lib/saturno/sensazonal/food.ex:373 lib/saturno/sensazonal/food.ex:380
+#: lib/saturno/sensazonal/food.ex:387 lib/saturno/sensazonal/food.ex:457
+#: lib/saturno/sensazonal/food.ex:527 lib/saturno/sensazonal/food.ex:534
+#: lib/saturno/sensazonal/food.ex:541 lib/saturno/sensazonal/food.ex:562
+#: lib/saturno/sensazonal/food.ex:569 lib/saturno/sensazonal/food.ex:576
+#: lib/saturno/sensazonal/food.ex:590 lib/saturno/sensazonal/food.ex:597
+#: lib/saturno/sensazonal/food.ex:604 lib/saturno/sensazonal/food.ex:632
+#: lib/saturno/sensazonal/food.ex:639 lib/saturno/sensazonal/food.ex:653
+#: lib/saturno/sensazonal/food.ex:660 lib/saturno/sensazonal/food.ex:667
+#: lib/saturno/sensazonal/food.ex:674 lib/saturno/sensazonal/food.ex:681
+msgid "Fruit"
+msgstr ""
+
+msgid "Fruits"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:100 lib/saturno/sensazonal/food.ex:107
+#: lib/saturno/sensazonal/food.ex:114 lib/saturno/sensazonal/food.ex:121
+#: lib/saturno/sensazonal/food.ex:233 lib/saturno/sensazonal/food.ex:240
+#: lib/saturno/sensazonal/food.ex:296 lib/saturno/sensazonal/food.ex:303
+#: lib/saturno/sensazonal/food.ex:310 lib/saturno/sensazonal/food.ex:317
+#: lib/saturno/sensazonal/food.ex:324 lib/saturno/sensazonal/food.ex:394
+#: lib/saturno/sensazonal/food.ex:401 lib/saturno/sensazonal/food.ex:408
+#: lib/saturno/sensazonal/food.ex:415 lib/saturno/sensazonal/food.ex:464
+#: lib/saturno/sensazonal/food.ex:471 lib/saturno/sensazonal/food.ex:492
+#: lib/saturno/sensazonal/food.ex:499 lib/saturno/sensazonal/food.ex:506
+#: lib/saturno/sensazonal/food.ex:513 lib/saturno/sensazonal/food.ex:548
+#: lib/saturno/sensazonal/food.ex:583 lib/saturno/sensazonal/food.ex:611
+msgid "Vegetable"
+msgstr ""
+
+msgid "Vegetables"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:128 lib/saturno/sensazonal/food.ex:135
+#: lib/saturno/sensazonal/food.ex:142 lib/saturno/sensazonal/food.ex:149
+#: lib/saturno/sensazonal/food.ex:156 lib/saturno/sensazonal/food.ex:163
+#: lib/saturno/sensazonal/food.ex:170 lib/saturno/sensazonal/food.ex:247
+#: lib/saturno/sensazonal/food.ex:254 lib/saturno/sensazonal/food.ex:331
+#: lib/saturno/sensazonal/food.ex:338 lib/saturno/sensazonal/food.ex:345
+#: lib/saturno/sensazonal/food.ex:352 lib/saturno/sensazonal/food.ex:359
+#: lib/saturno/sensazonal/food.ex:366 lib/saturno/sensazonal/food.ex:422
+#: lib/saturno/sensazonal/food.ex:429 lib/saturno/sensazonal/food.ex:436
+#: lib/saturno/sensazonal/food.ex:443 lib/saturno/sensazonal/food.ex:450
+#: lib/saturno/sensazonal/food.ex:478 lib/saturno/sensazonal/food.ex:485
+#: lib/saturno/sensazonal/food.ex:520 lib/saturno/sensazonal/food.ex:555
+#: lib/saturno/sensazonal/food.ex:618 lib/saturno/sensazonal/food.ex:625
+#: lib/saturno/sensazonal/food.ex:646 lib/saturno/sensazonal/food.ex:688
+msgid "Veggie"
+msgstr ""
+
+msgid "Veggies"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:8
+msgid "Pineapple"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:15
+msgid "Star Fruit"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:22
+msgid "Green Coconut"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:29
+msgid "Fig"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:36
+msgid "Raspberry"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:43
+msgid "Custard Apple"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:50
+msgid "Orange Pear"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:57
+msgid "Orange-lime"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:64
+msgid "Papaya"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:71
+msgid "Passion Fruit"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:78
+msgid "Watermelon"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:85
+msgid "Nectarine"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:92
+msgid "Grape"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:99
+msgid "Lettuce"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:106
+msgid "Chive"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:113
+msgid "Cabbage"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:120
+msgid "Parsley"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:127
+msgid "Pumpkin"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:134
+msgid "Zucchini"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:141
+msgid "Beet"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:148
+msgid "Cucumber"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:155
+msgid "Pepper"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:162
+msgid "Okra"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:169
+msgid "Tomato"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:176
+msgid "Avocado"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:183
+msgid "Plum"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:190
+msgid "Guava"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:197
+msgid "Jaca"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:204
+msgid "Apple"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:211
+msgid "Pear"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:218
+msgid "Peach"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:225
+msgid "Seriguela"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:232
+msgid "Escarole"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:239
+msgid "Mint"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:246
+msgid "Ginger"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:253
+msgid "Green Corn"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:260
+msgid "Banana Apple"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:267
+msgid "Banana Nanica"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:274
+msgid "Lemon"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:281
+msgid "Mangosteen"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:288
+msgid "Tangerine"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:295
+msgid "Chard"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:302
+msgid "Leek"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:309
+msgid "Coriander"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:316
+msgid "Endive"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:323
+msgid "Arugula"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:330
+msgid "Eggplant"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:337
+msgid "Cará"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:344
+msgid "Chuchu"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:351
+msgid "Yam"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:358
+msgid "Scarlet Eggplant"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:365
+msgid "Turnip"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:372
+msgid "Khaki"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:379
+msgid "Cider"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:386
+msgid "Kiwi"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:393
+msgid "Will Reach"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:400
+msgid "Catalan"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:407
+msgid "Fennel"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:414
+msgid "Bay Laurel"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:421
+msgid "Sweet Potato"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:428
+msgid "Carrot"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:435
+msgid "Manioc"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:442
+msgid "Little Manioc"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:449
+msgid "Radish"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:456
+msgid "Quince"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:463
+msgid "Cress"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:470
+msgid "Broccoli"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:477
+msgid "Pea"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:484
+msgid "Palm Heart"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:491
+msgid "Chicory"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:498
+msgid "Spinach"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:505
+msgid "Mustard"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:512
+msgid "Celery"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:519
+msgid "Mushroom"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:526
+msgid "Cashew"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:533
+msgid "Lime"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:540
+msgid "Strawberry"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:547
+msgid "Cauliflower"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:554
+msgid "Fava"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:561
+msgid "Jaboticaba"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:568
+msgid "Medlar"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:575
+msgid "Tamarind"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:582
+msgid "Oregano"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:589
+msgid "Acerola"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:596
+msgid "Silver Banana"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:603
+msgid "Mango"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:610
+msgid "Grape Leaf"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:617
+msgid "Artichoke"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:624
+msgid "Asparagus"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:631
+msgid "Khaki Tomato"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:638
+msgid "Melon"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:645
+msgid "Maxixe"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:652
+msgid "Cherry"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:659
+msgid "Damascus"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:666
+msgid "Graviola"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:673
+msgid "Lychee"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:680
+msgid "Pomegranate"
+msgstr ""
+
+#: lib/saturno/sensazonal/food.ex:687
+msgid "Pod Noodles"
+msgstr ""

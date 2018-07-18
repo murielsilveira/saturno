@@ -6,6 +6,10 @@
 use Mix.Config
 
 # General application configuration
+config :saturno, SaturnoWeb.Gettext,
+  default_locale: "en",
+  locales: ~w(en pt_BR)
+
 config :saturno,
   ecto_repos: [Saturno.Repo]
 
