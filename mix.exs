@@ -43,7 +43,9 @@ defmodule Saturno.Mixfile do
       {:cowboy, "~> 1.0"},
       {:absinthe, "~> 1.4"},
       {:absinthe_plug, "~> 1.4"},
-      {:poison, "~> 3.1"}
+      {:poison, "~> 3.1"},
+      {:jason, "~> 1.1"},
+      {:plug_cowboy, "~> 1.0"}
     ]
   end
 
@@ -57,7 +59,7 @@ defmodule Saturno.Mixfile do
     [
       "ecto.setup": ["ecto.create", "ecto.migrate", "run priv/repo/seeds.exs"],
       "ecto.reset": ["ecto.drop", "ecto.setup"],
-      "test": ["ecto.create --quiet", "ecto.migrate", "test"]
+      test: ["ecto.create --quiet", "ecto.migrate", "test"]
     ]
   end
 end
