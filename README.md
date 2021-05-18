@@ -36,7 +36,7 @@ gigalixir ps
 gigalixir logs
 ```
 
-More info: https://gigalixir.readthedocs.io/en/latest/getting-started-guide.html
+More info on https://gigalixir.readthedocs.io/en/latest/getting-started-guide.html and https://hexdocs.pm/phoenix/gigalixir.html
 
 
 ## Upgrade
