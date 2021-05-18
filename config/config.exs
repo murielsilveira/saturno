@@ -3,12 +3,9 @@
 #
 # This configuration file is loaded before any dependency and
 # is restricted to this project.
-use Mix.Config
 
 # General application configuration
-config :saturno, SaturnoWeb.Gettext,
-  default_locale: "en",
-  locales: ~w(en pt_BR)
+use Mix.Config
 
 config :saturno,
   ecto_repos: [Saturno.Repo]
@@ -16,16 +13,19 @@ config :saturno,
 # Configures the endpoint
 config :saturno, SaturnoWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "Re8TTcLkHJmAZYCbDkoBsA00dODBbb1cepCbW/eFvIbdgLrTxUflN8/SVfqCBlax",
-  render_errors: [view: SaturnoWeb.ErrorView, accepts: ~w(html json)],
-  pubsub: [name: Saturno.PubSub,
-           adapter: Phoenix.PubSub.PG2]
+  secret_key_base: "y4gyTiXoo3aN/NhF/H/qcuVNHllYO6LCafd9fkhP3s10zCsKI2BxUAOy/U6z4CSZ",
+  render_errors: [view: SaturnoWeb.ErrorView, accepts: ~w(html json), layout: false],
+  pubsub_server: Saturno.PubSub,
+  live_view: [signing_salt: "tDS9nMVW"]
 
 # Configures Elixir's Logger
 config :logger, :console,
   format: "$time $metadata[$level] $message\n",
-  metadata: [:user_id]
+  metadata: [:request_id]
+
+# Use Jason for JSON parsing in Phoenix
+config :phoenix, :json_library, Jason
 
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.
-import_config "#{Mix.env}.exs"
+import_config "#{Mix.env()}.exs"

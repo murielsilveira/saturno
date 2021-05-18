@@ -1,19 +1,22 @@
 defmodule Saturno.Application do
-  use Application
-
   # See https://hexdocs.pm/elixir/Application.html
   # for more information on OTP Applications
-  def start(_type, _args) do
-    import Supervisor.Spec
+  @moduledoc false
 
-    # Define workers and child supervisors to be supervised
+  use Application
+
+  def start(_type, _args) do
     children = [
       # Start the Ecto repository
-      supervisor(Saturno.Repo, []),
-      # Start the endpoint when the application starts
-      supervisor(SaturnoWeb.Endpoint, []),
-      # Start your own worker by calling: Saturno.Worker.start_link(arg1, arg2, arg3)
-      # worker(Saturno.Worker, [arg1, arg2, arg3]),
+      Saturno.Repo,
+      # Start the Telemetry supervisor
+      SaturnoWeb.Telemetry,
+      # Start the PubSub system
+      {Phoenix.PubSub, name: Saturno.PubSub},
+      # Start the Endpoint (http/https)
+      SaturnoWeb.Endpoint
+      # Start a worker by calling: Saturno.Worker.start_link(arg)
+      # {Saturno.Worker, arg}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
