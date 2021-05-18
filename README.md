@@ -18,3 +18,9 @@ Ready to run in production? Please [check our deployment guides](http://www.phoe
   * Docs: https://hexdocs.pm/phoenix
   * Mailing list: http://groups.google.com/group/phoenix-talk
   * Source: https://github.com/phoenixframework/phoenix
+
+## Upgrade
+
+https://www.phoenixdiff.org
+https://gist.github.com/chrismccord/bb1f8b136f5a9e4abc0bfc07b832257e
+https://gist.github.com/chrismccord/e53e79ef8b34adf5d8122a47db44d22f
