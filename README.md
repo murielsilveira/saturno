@@ -19,6 +19,26 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   * Forum: https://elixirforum.com/c/phoenix-forum
   * Source: https://github.com/phoenixframework/phoenix
 
+## Deploy
+
+Heroku gets deployed automatically.
+
+Gigalixir needs manual interaction:
+
+```bash
+# on main branch
+git push gigalixir
+# running migrations
+gigalixir run mix ecto.migrate
+
+# other helpful commands
+gigalixir ps
+gigalixir logs
+```
+
+More info: https://gigalixir.readthedocs.io/en/latest/getting-started-guide.html
+
+
 ## Upgrade
 
 https://www.phoenixdiff.org
